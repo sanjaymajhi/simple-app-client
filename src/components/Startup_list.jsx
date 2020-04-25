@@ -47,7 +47,11 @@ function Startup_list() {
         ))}
       </ul>
       <Link to="/addStartup">
-        <Button>Create New</Button>
+        <Button
+          style={{ backgroundColor: "#351c75", border: "1px solid #351c75" }}
+        >
+          Create New
+        </Button>
       </Link>
     </div>
   );

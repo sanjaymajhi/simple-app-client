@@ -85,7 +85,13 @@ function Add_startup() {
                   required={true}
                 />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button
+                type="submit"
+                style={{
+                  backgroundColor: "#351c75",
+                  border: "1px solid #351c75",
+                }}
+              >
                 Submit
               </Button>
               <br />

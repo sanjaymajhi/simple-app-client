@@ -3,7 +3,7 @@ import { Jumbotron } from "react-bootstrap";
 
 function Nav(props) {
   return (
-    <Jumbotron>
+    <Jumbotron style={{ backgroundColor: "#8e7cc3", color: "white" }}>
       <h1>{props.heading}</h1>
     </Jumbotron>
   );
